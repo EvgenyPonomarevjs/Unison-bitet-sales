@@ -1,0 +1,75 @@
+body {
+    background-color: #262626;
+}
+
+.wrap {
+    width: 100%;
+    
+}
+.logo {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+.logo img {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+}
+
+.counter {
+    width: 100%;
+}
+.wrap__counter {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+.counter__text p {
+    font-size: 78px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+
+
+.socNetwork__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+/* Таймер времени*/
+.timer__items {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    color: #fff;
+  }
+  .timer__item {
+    position: relative;
+    min-width: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+  .timer__item::before {
+    content: attr(data-title);
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    font-size: 14px;
+  }
+  /* .timer__item:not(:last-child)::after {
+    content: ':';
+    position: absolute;
+    right: -15px;
+  } */
