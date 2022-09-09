@@ -76,15 +76,16 @@ video {
     text-align: center;
 }
 .counter__text p {
-    font-family: 'PhonkSans', sans-serif;
+    font-family: 'PhonkSans';
     font-size: 78px;
-    color: #029a6d;
+    font-weight: bold;
+    color: #fff;
+    color: transparent;
     margin-bottom: 30px;
-    /* line-height: normal;
     -webkit-text-stroke: 1px #029a6d;
-    text-stroke: 1px #029a6d; */
-    /* -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #029a6d; */
+    text-stroke: 1px #029a6d;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #029a6d;
 }
 
 .qtickets__btn {
@@ -102,7 +103,7 @@ video {
     text-align: center;
     margin:  0 auto;
     color: #029a6d;
-    font-family: 'PhonkSans', sans-serif;
+    font-family: 'PhonkSans';
     font-weight: 500;
     line-height: 25px;
     font-size: 32px;
@@ -111,7 +112,6 @@ video {
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
-    border-bottom: 2px solid #535957;
     margin-top: 80px;
 }
 .socNetwork__item {
@@ -151,16 +151,17 @@ video {
     padding-right: 10px;
 }
 .footer__item p {
-    font-family: 'PhonkSans', sans-serif;
+    font-family: 'Montserrat';
     font-size: 16px;
     line-height: 16px;
     color: #C0C0C0;
     margin-right: 30px;
 }
 .footer__item a {
+    font-family: 'Montserrat';
     font-size: 18px;
     color: #C0C0C0;
-    text-decoration: underline #535957;
+    text-decoration: 1px underline #535957;
 
 }
 
@@ -173,7 +174,7 @@ video {
     justify-content: center;
     font-size: 100px;
     color: #fff;
-    font-family: 'PhonkSans', sans-serif;
+    font-family: 'PhonkSans';
   }
   .timer__item {
     position: relative;
@@ -192,7 +193,7 @@ video {
     transform: translateX(-50%);
     font-size: 18px;
     color: #029a6d;
-    font-family: 'PhonkSans', sans-serif;
+    font-family: 'PhonkSans';
   }
   /* .timer__item:not(:last-child)::after {
     content: ':';

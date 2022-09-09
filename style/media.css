@@ -1,5 +1,13 @@
 @media (max-width: 1360px) {
-
+    .footer__item p {
+        font-size: 14px;
+        line-height: normal;
+        text-align: center;
+    }
+    .footer__item a {
+        font-size: 14px;
+        text-align: center;
+    }
 }
 @media screen and (max-width: 740px) {
     .counter__text p {
@@ -71,10 +79,10 @@
     }
     .footer__logo {
         max-width: 440px;
-        padding-bottom: 20px;
+        padding-bottom: 0px;
     }
     .footer__logo img {
-        width: 150px;
+        width: 170px;
     }
     .footer__item {
         display: block;
