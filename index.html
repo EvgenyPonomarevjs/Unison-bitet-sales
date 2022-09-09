@@ -7,15 +7,22 @@
     <title>Юнисон Москва</title>
     <link rel="stylesheet" href="/style/style.css">
     <link rel="stylesheet" href="/style/reset.css">
-    <link rel="stylesheet" href="/font/Montserrat Regular UNISON.otf">
-    <link rel="stylesheet" href="/font/PhonkSans Bold UNISON.ttf">
-    <link rel="stylesheet" href="/font/Travels Next ExtraBold UNISON.ttf">
+    <link rel="stylesheet" href="/style/media.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="/font/PhonkSansBoldUNISON.ttf" rel="stylesheet">
 </head>
 <body>
     <div class="wrap">
+        <video autoplay loop muted class="bgvideo" id="bgvideo">
+            <source src="/img/video.mp4" type="video/mp4"></source>
+        </video>
         <div class="logo">
             <img src="/img/HCUM_LOGOTYPE_BB_PORTRAIT_Colour.png" alt="">
         </div>
+        <div class="wrap__gren"></div>
         <section class="counter">
             <div class="wrap__counter">
                 <div class="counter__text">
@@ -31,20 +38,31 @@
                 </div>
             </div>
         </section>
+        <section class="qtickets__btn">
+            <script type="text/javascript" src="https://qtickets.ru/js/openapi"></script>
+            <style>.qtickets-button {background: #029b6f; border: 1px solid #029b6f} .qtickets-button:hover {background: #1cb589; border-color: #1cb589}</style>
+            <button rel="qtickets" class="qtickets-button" data-event-id="49779" data-window-width="960" data-window-height="645" data-base-color="#029b6f">Купить билет</button>
+        </section>
         <section class="socNetwork">
-            <ul class="socNetwork__item">
-                <li> <a href="https://vk.com/hcunison"> <img src="" alt=""> </a></li>
-                <li><a href="https://t.me/hcunison"> <img src="" alt="" </a></li>
-                <li><a href="https://www.instagram.com/hcunison"> <img src="" alt="" </a></li>
-                <li><a href="https://www.youtube.com/channel/UCK09Y-l_YtpjqMhpzrzUGAw"> <img src="" alt="" </a></li>
-                <li><a href="https://rutube.ru/channel/27116556/"> <img src="" alt="" </a></li>
-            </ul>
+            <div class="wrap__socNetwork">
+                <h2>Стань частью клуба!</h2>
+                <ul class="socNetwork__item">
+                    <li> <a href="https://vk.com/hcunison"> <img class="socNetwork-img" src="/img/free-icon-vk-3670029.png" alt="vk"> </a></li>
+                    <li><a href="https://t.me/hcunison"> <img class="socNetwork-img" src="/img/free-icon-telegram-2111710.png" alt="tg"> </a></li>
+                    <li><a href="https://www.instagram.com/hcunison">  <img class="socNetwork-img" src="/img/free-icon-instagram-4494468.png" alt="inst"> </a></li>
+                    <li><a href="https://www.youtube.com/channel/UCK09Y-l_YtpjqMhpzrzUGAw"> <img class="socNetwork-img" src="/img/free-icon-youtube-4494467.png" alt="youtube"> </a></li>
+                    <li><a href="https://rutube.ru/channel/27116556/"> <img class="socNetwork-img" src="/img/1_rutube.png" alt="rutube"> </a></li>
+                </ul>
+            </div>
         </section>
         <footer>
             <div class="footer__logo">
-                <img src="" alt="logo">
-                <p>@ Официальный сайт хоккейного клуба "Юнисон" Москва</p>
-                <a href="">Политика конфиденциальности</a>
+                <img src="/img/HCUM_LOGOTYPE_WB_LANDSCAPE_RGB_Mono.png" alt="logoMono">
+                <div class="footer__item">
+                    <p>© Официальный сайт хоккейного клуба "Юнисон" Москва</p>
+                    <a href="">Политика конфиденциальности</a>
+                </div>
+
             </div>
         </footer>
     </div>
