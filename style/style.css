@@ -48,6 +48,8 @@ video {
     overflow: hidden;
     z-index: -9999;
     opacity: 0.3;
+    -o-object-fit: cover;
+    object-fit: cover;
 }
 
 .wrap {

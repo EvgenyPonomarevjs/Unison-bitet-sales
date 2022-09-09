@@ -90,6 +90,7 @@
     }
     .footer__item p {
         display: block;
+        width: 170px;
         font-size: 12px;
         line-height: normal;
         margin-right: 0;
